@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS25.2.1" // Configura una instalación de Node.js en Jenkins
+        nodejs "NodeJS 25.2.1" // Configura una instalación de Node.js en Jenkins
         dockerTool 'Dockertool'  // Cambia el nombre de la herramienta según tu configuración en Jenkins
     }
 
